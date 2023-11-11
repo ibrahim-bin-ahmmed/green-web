@@ -1,0 +1,168 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+}
+/****** Start Header section j****/
+header{
+    height: 60px;
+    width: 100%;
+    background-color: #1D2A35;
+    display: flex;
+    align-items: center;
+}
+.green-school-logo {
+margin: 0px 25px;
+}
+.green-school-logo h2 {
+    color: #059862;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 0.7;
+}
+.green-school-logo h2 span {
+    font-size: 18px;
+    margin-left: -12px;
+}
+.left-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.left-side a {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    font-size: 18px;
+    padding:0px 10px;
+   
+}
+.left-side a:hover {
+    background-color: #059862;
+}
+ .left-side input {
+    padding: 10px 8px;
+    border-radius: 20px;
+    border:none;
+    outline: none;
+    margin-left: 5px;
+} 
+.left-side input:focus {
+   border: solid 4px #059862;
+}
+.left-side .fa-magnifying-glass {
+    color: #5e6361;
+    font-size: 22px;
+    font-weight: 600;
+    transform: translateX(-30px);
+}
+.left-side .fa-circle-half-stroke {
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+.left-side .fa-circle-half-stroke:hover {
+    background-color:#38444D ;
+}
+
+
+.right-side {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 15px;
+    width: 100%;
+    margin-right: 20px;
+}
+.right-side a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+}
+.right-side a:hover {
+    background-color: #38444D;
+}
+.right-side .user a {
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 45%;
+    color:#2A93FB ;
+    border: 4px solid #4d5b69;
+}
+
+@media (max-width:1284px) {
+    .right-side  .jobs {
+       display: none;
+    }
+}
+@media (max-width:1216px) {
+    .right-side  .spaces {
+       display: none;
+    }
+}
+@media (max-width:1132px) {
+    .right-side  .get-certified{
+       display: none;
+    }
+}
+@media (max-width:1002px) {
+    .left-side input {
+       display: none;
+    }
+    .fa-circle-half-stroke {
+        margin-left: 20px;
+    }
+    .left-side .fa-magnifying-glass {
+        transform: translateX(10px);
+        color: white;
+    }
+}
+
+
+@media (max-width:1002px) {
+    .left-side   input {
+       display: none;
+    }
+}
+@media (max-width:5000px) {
+    .left-side .menu {
+        display: none;
+    }
+}
+
+@media (max-width:833px) {
+    .left-side  a {
+       display: none;
+    }
+    .left-side .fa-magnifying-glass {
+        transform: translateX(160px);
+        color: white;
+    }
+    .left-side .menu {
+        display:block;
+        width: max-content;
+        line-height: 60px;
+    }
+}
+@media (max-width:600px) {
+    .left-side .fa-magnifying-glass {
+        transform: translateX(70px);
+        color: white;
+    }
+    .fa-circle-half-stroke {
+        transform: translateX(-45px);
+        color: white;
+    }
+}
+/***** End header section *****/
+
