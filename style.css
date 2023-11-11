@@ -137,6 +137,7 @@ margin: 0px 25px;
 @media (max-width:5000px) {
     .left-side .menu {
         display: none;
+        margin-left:-20px;
     }
 }
 
@@ -156,7 +157,7 @@ margin: 0px 25px;
 }
 @media (max-width:600px) {
     .left-side .fa-magnifying-glass {
-        transform: translateX(70px);
+        transform: translateX(50px);
         color: white;
     }
     .fa-circle-half-stroke {
